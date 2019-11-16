@@ -6,38 +6,32 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="styles.css">
     <title>Document</title>
+    
 </head>
 <body>
     <p>Round One</p>
-    <h1>italian car lable?</h1>
-
-    
-    <div class="radio-group">
-    <input type="radio" name="radio" id="radio1">
-    <label for="radio1">BMW</label>
-    </div>
-    
-    <div class="radio-group">
-        <input type="radio" name="radio" id="radio1">
-        <label for="radio1">Mersedes</label>
-        </div>
-    
-        
-    <div class="radio-group">
-            <input type="radio" name="radio" id="radio1">
-            <label for="radio1">Lamburgini</label>
-            </div>
-
-    <div class="radio-group">
-            <input type="radio" name="radio" id="radio1">
-            <label for="radio1">Ford</label>
-            </div>
+    <h1>Which one is italian car company?</h1>
+    <div class="container">
+        <form>
+          <label class="radio-inline">
+            <input type="radio" id="radio1" name="optradio"checked>BMW
+          </label>
+          <label class="radio-inline">
+            <input type="radio" id="radio2" name="optradio">Ford
+          </label>
+          <label class="radio-inline">
+            <input type="radio" id="radio3" name="optradio">Lamborghini
+          </label>
+          <label class="radio-inline">
+            <input type="radio" id="radio4" name="optradio">Hondai
+          </label>
+        </form>
+      </div>
     
         
-            <a href="level2.html" class="button2">
-                <button class="b2">Next Round</button>
-            </a> 
+            <a href="level2.html" class="myButton" onclick="func1()">Next Question</a>
             
-    
+        
+        <script src="script.js"></script>    
 </body>
 </html>

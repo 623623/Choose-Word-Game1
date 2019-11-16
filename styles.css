@@ -1,7 +1,9 @@
-
-
-
-
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
 body{
     background: #222629;
 	text-align: center;
@@ -16,11 +18,12 @@ p{
     margin-top: 200px;/*отступ от верха*/
 	font-size: 50px;/*размер шрифта*/
 	color: #61892f;
+	
 
 }
 /*/////*/
-.b1 {
-	box-shadow: 0px 10px 14px -7px #435a5e;
+.myButton {
+	box-shadow: 0px 10px 14px -7px #276873;
 	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
 	background-color:#599bb3;
 	border-radius:8px;
@@ -34,74 +37,52 @@ p{
 	text-decoration:none;
 	text-shadow:0px 1px 0px #3d768a;
 }
-.b1:hover {
+.myButton:hover {
 	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
 	background-color:#408c99;
 }
-.b1:active {
+.myButton:active {
 	position:relative;
 	top:1px;
 }
-
-.button1{
-    text-align: center;
-    top: 50%;
+.myButton{
+	font-family: 'Yeon Sung', cursive;
+	color: #ffffff;
+	margin-top: 50px;
 }
-.radio1 {
+.container {
 	
 	font-size: 24px;
 	font-weight: 500;
 	text-transform: capitalize;
 	color: #ffffff;
+	padding-top: 50px;
+
 }
 .text2{
 	color: #ffff;
 	
 	
 }
-.b2{
-	text-align: center;
-	top: 50%;
-	margin: 20px;
-}
-.b2 {
-	box-shadow: 0px 10px 14px -7px #435a5e;
-	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
-	background-color:#599bb3;
-	border-radius:8px;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:20px;
-	font-weight:bold;
-	padding:13px 32px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #3d768a;
-}
-.b2:hover {
-	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
-	background-color:#408c99;
-}
-.b2:active {
-	position:relative;
-	top:1px;
-}
 label{
 	font-size: 24px;
 	color: #ffffff;
 }
 	
-.radio-group{
+/*.radio-group{
 	display: table;
-}
+}/*
 .radio-group input{
 	display: table-cell;
 	vertical-align: middle;
 	margin-left: 805px;
 	text-align: 20px;
-	text-align: center;
+	text-align: center;*/
 	
+
+.radio-group{
+	display: inline;
+    text-align: center;
 }
 label{
 	margin-left: 2px;
